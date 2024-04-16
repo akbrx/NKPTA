@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/judulmhskp"
+        android:layout_width="237dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="JUDUL KP"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toEndOf="@id/backbtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="356dp"
+        android:layout_height="368dp"
+        android:layout_marginStart="24dp"
+
+        android:layout_marginTop="216dp"
+        android:background="@drawable/nkptashape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="328dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="40dp"
+
+        android:layout_marginTop="240dp"
+        android:background="@drawable/nilaitshape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="328dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="512dp"
+        android:background="@drawable/nilaitshape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="328dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/nilaitshape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="328dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="40dp"
+
+        android:layout_marginTop="332dp"
+        android:background="@drawable/nilaitshape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/namamhskp"
+        android:layout_width="65dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="28dp"
+        android:gravity="left"
+        android:text="nama"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@id/pp"
+        app:layout_constraintTop_toTopOf="@id/pp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/nimmhskp"
+        android:layout_width="127dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:gravity="left"
+        android:text="nim"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@id/pp"
+        app:layout_constraintTop_toTopOf="@id/pp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/sikap"
+        android:textColor="@color/white"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="261dp"
+        android:gravity="left"
+        android:text="sikap 20%"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etSikap"
+        android:layout_width="144dp"
+        android:background="@drawable/inputshape2"
+        android:layout_height="36dp"
+        android:layout_marginStart="55dp"
+        android:hint="  masukkan nilai"
+        android:textSize="14dp"
+        app:layout_constraintStart_toEndOf="@id/sikap"
+        app:layout_constraintTop_toTopOf="@id/sikap"
+        app:layout_constraintBottom_toBottomOf="@+id/sikap"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/penguasaanmateri"
+        android:layout_width="115dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="346dp"
+        android:gravity="left"
+        android:text="penguasaan materi 40%"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etPenguasaanMateri"
+        android:background="@drawable/inputshape2"
+        android:layout_width="144dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="55dp"
+        android:hint="  masukkan nilai"
+        android:textSize="14dp"
+        app:layout_constraintStart_toEndOf="@id/penguasaanmateri"
+        app:layout_constraintTop_toTopOf="@id/penguasaanmateri"
+        app:layout_constraintBottom_toBottomOf="@+id/penguasaanmateri"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/isilaporan"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="442dp"
+        android:gravity="left"
+        android:text="isi laporan 40%"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etIsiLaporan"
+        android:background="@drawable/inputshape2"
+        android:layout_width="144dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="0dp"
+        android:hint="  masukkan nilai"
+        android:textSize="14dp"
+        app:layout_constraintStart_toEndOf="@id/isilaporan"
+        app:layout_constraintTop_toTopOf="@id/isilaporan"
+        app:layout_constraintBottom_toBottomOf="@+id/isilaporan"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/totalnilai"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="522dp"
+        android:gravity="left"
+        android:text="total nilai"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".InputNilaiTA"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etTotalNilai"
+        android:background="@drawable/inputshape2"
+        android:layout_width="144dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="55dp"
+        android:hint="  masukkan nilai"
+        android:textSize="14dp"
+        app:layout_constraintStart_toEndOf="@id/totalnilai"
+        app:layout_constraintTop_toTopOf="@id/totalnilai"
+        app:layout_constraintBottom_toBottomOf="@+id/totalnilai"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/simpanbtn"
+        android:layout_width="123dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="608dp"
+        android:text="simpan"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
